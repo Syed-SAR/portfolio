@@ -1,0 +1,21 @@
+.header {
+  border: 1px solid black;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  align-items: center;
+}
+.header__name {
+  grid-column: 1/span 2;
+  margin-left: 1.5rem;
+}
+.header__logo {
+  grid-column: 3/4;
+}
+.header__list {
+  grid-column: 8/-1;
+  display: flex;
+  gap: 2rem;
+}
+
+/*# sourceMappingURL=header.css.map */
