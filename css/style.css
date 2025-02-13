@@ -81,10 +81,20 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+@media only screen and (max-width: 700px) {
+  .intro {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 .intro__heading {
   grid-row: 1/2;
   grid-column: 2/4;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 .intro__left {
   grid-row: 1/-1;
@@ -97,6 +107,12 @@ body {
   z-index: 5;
   color: white;
 }
+@media only screen and (max-width: 700px) {
+  .intro__right {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+}
 .intro ul {
   list-style: none;
   padding: 2rem 4rem;
@@ -107,9 +123,24 @@ body {
 .intro ul li:not(:last-child) {
   margin-bottom: 0.8rem;
 }
+.intro ul li:last-child {
+  margin-top: 1.5rem;
+}
 .intro ul li a:link, .intro ul li a:visited {
   text-decoration: none;
   color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5rem 2rem;
+  margin-top: 3rem;
+  transition: 0.2s;
+}
+.intro ul li a:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-3px);
+}
+.intro ul li a:active {
+  transform: translateY(-1px);
 }
 
 video {
@@ -117,6 +148,17 @@ video {
   height: 100%;
   z-index: 2;
   object-fit: cover;
+}
+
+.links {
+  display: flex;
+}
+.links li a:link, .links li a:visited {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5rem 2rem;
+  margin-top: 3rem;
 }
 
 .section-skills {
