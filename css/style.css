@@ -27,6 +27,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 2.5rem 4rem;
+  border: 1px solid rgb(0, 0, 0);
 }
 .header__name {
   font-size: 2.2rem;
@@ -119,6 +120,7 @@ align-items: center;
   background-color: #eee;
   padding: 5rem 10rem;
   margin-top: 10rem;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .element {
@@ -284,16 +286,90 @@ video {
 }
     */
 .section-skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
-  gap: 5rem;
-  margin: 3rem 3rem;
+  text-align: center;
+  background-color: #eee;
+  margin: 3rem 0rem;
+  padding: 2.5rem;
   margin-bottom: 5rem;
 }
 
 .card {
   background-color: orangered;
   min-height: 50rem;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  gap: 5rem;
+}
+
+.about {
+  padding: 5rem 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  max-height: 50rem;
+}
+.about__left {
+  grid-row: 1/-1;
+  grid-column: 2/6;
+  font-size: 2rem;
+  margin-right: 1rem;
+  animation: left 5s ease-out 3;
+  animation-delay: 10s;
+  backface-visibility: hidden;
+}
+.about__right {
+  grid-row: 1/-1;
+  grid-column: 6/-2;
+  overflow: hidden;
+  object-fit: contain;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  animation: right 5s ease-out 3;
+  animation-delay: 10s;
+  backface-visibility: hidden;
+}
+.about__photo {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.about__box {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-20rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(2.5rem);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    transform: translateX(20rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-2.5rem);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

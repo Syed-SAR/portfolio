@@ -1,14 +1,21 @@
-
 .section-skills {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
-    gap: 5rem;
-margin: 3rem 3rem;
-    margin-bottom: 5rem;
+text-align: center;
+background-color: #eee;
+  margin: 3rem 0rem;
+  padding: 2.5rem;
+  margin-bottom: 5rem;
 }
-
 
 .card {
-    background-color: orangered;
-    min-height: 50rem;
+  background-color: orangered;
+  min-height: 50rem;
 }
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  gap: 5rem;
+}
+
+
+//Card STyling : img, heading, details, box-shadow
