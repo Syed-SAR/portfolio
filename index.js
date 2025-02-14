@@ -1,8 +1,8 @@
 
 var typed = new Typed('.element', {
-    strings: ["Web Developer", "AWS Cloud", "Devops"],
+    strings: ["Web Developer", "AWS Cloud", "Devops", "Learn More About me!!!"],
     typeSpeed: 30,
-    loop:true,
+    loop:false,
   });
 
   var scrollpos = window.scrollY; // window scroll position
