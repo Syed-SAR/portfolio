@@ -1,0 +1,14 @@
+
+.section-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    gap: 5rem;
+margin: 3rem 3rem;
+    margin-bottom: 5rem;
+}
+
+
+.card {
+    background-color: orangered;
+    min-height: 50rem;
+}

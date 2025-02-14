@@ -1,0 +1,30 @@
+
+$color-white: rgba(255, 255, 255);
+$color-black: rgb(0, 0, 0);
+$color-grey: #eee;
+$color-gold: goldenrod;
+
+
+
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 1rem;
+    color: $color-black;
+}
+
