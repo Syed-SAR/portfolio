@@ -1,20 +1,64 @@
 .section-skills {
 text-align: center;
-background-color: #eee;
+background-color: $color-grey;
   margin: 3rem 0rem;
-  padding: 2.5rem;
+  padding: 5rem 3rem;
+  padding-bottom: 10rem;
   margin-bottom: 5rem;
+  border-bottom: 1px solid $color-black;
 }
 
 .card {
-  background-color: orangered;
-  min-height: 50rem;
+  max-height: 70rem;
+  text-align: center;
+  border: 1px solid $color-black;
+  background-color: $color-white;
+
+&__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 8rem;
 }
 
-.card__container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
-  gap: 5rem;
+&__img-box {
+height: 30%;
+}
+
+&__img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+&__details {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2.5rem 5rem;
+}
+
+&__list {
+list-style: none;
+font-size: 1.8rem;
+padding: 2rem 4rem;
+}
+
+&__item {
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+&__svg {
+height: 4rem;
+width: 4rem;
+margin-right: 1rem;
+filter: invert(65%) sepia(38%) saturate(851%) hue-rotate(5deg) brightness(96%) contrast(91%);
+}
+
 }
 
 
