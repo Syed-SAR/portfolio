@@ -29,11 +29,35 @@ body {
   font-size: 2.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .heading-tertiary {
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  font-size: 2.2rem;
+  display: inline-block;
+  border-radius: 10rem;
+  padding: 2rem 4rem;
+  background-color: #daa520;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+.btn:hover {
+  transform: scaleX(1.2);
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+  transform: scaleX(1.2) translateY(3px);
+}
+.btn:active {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: scaleY(1) translateY(1px);
 }
 
 .header {
@@ -51,7 +75,6 @@ body {
   text-transform: uppercase;
 }
 .header__item {
-  border: 1px solid black;
   display: inline-block;
   padding: 1.5rem 2rem;
 }
@@ -69,7 +92,9 @@ body {
   list-style: none;
   display: flex;
 }
-.header__list__link:link, .header__list__link:visited {
+.header__list a:link, .header__list a:visited {
+  display: inline-block;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -180,8 +205,8 @@ align-items: center;
   text-decoration: none;
   color: #fff;
   border: 1px solid rgb(255, 255, 255);
+  display: inline-block;
   padding: 0.5rem 2rem;
-  margin-top: 3rem;
   font-size: 2rem;
 }
 .intro__link:hover {
@@ -306,7 +331,7 @@ video {
 .section-skills {
   text-align: center;
   background-color: #eee;
-  margin: 3rem 0rem;
+  margin: 10rem;
   padding: 5rem 3rem;
   padding-bottom: 10rem;
   margin-bottom: 5rem;
@@ -425,6 +450,43 @@ video {
     transform: translateX(0);
     opacity: 1;
   }
+}
+.section-projects {
+  padding: 7.5rem 10rem;
+  font-size: 2rem;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin-bottom: 0;
+}
+
+.projects {
+  text-align: center;
+}
+.projects__text {
+  font-weight: bold;
+}
+
+.footer {
+  min-height: 10rem;
+  background-color: #eee;
+  text-align: center;
+  padding: 2rem 4rem;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem 2rem;
+}
+.footer__item {
+  list-style: none;
+  margin-right: 1.5rem;
+}
+.footer__icon {
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.footer__copy {
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

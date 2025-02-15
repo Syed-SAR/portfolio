@@ -1,0 +1,32 @@
+.footer {
+    min-height: 10rem;
+    background-color: $color-grey;
+    text-align: center;
+    padding: 2rem 4rem;
+    // display: flex;
+    // justify-content: center;
+
+    &__list {
+        // height: 100%;
+        // background-color: orange;
+        // flex: 1;
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 1rem 2rem;
+    }
+
+    &__item {
+list-style: none;
+margin-right: 1.5rem;
+    }
+
+    &__icon {
+height: 6.5rem;
+width: 6.5rem;
+    }
+
+    &__copy {
+        font-size: 1.6rem;
+    }
+}
