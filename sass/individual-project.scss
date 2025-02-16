@@ -1,20 +1,24 @@
 
 .section-details {
-padding: 2.5rem 10rem;
+padding: 1.5rem 10rem;
+height: 80vh;
 }
 
 .details-container {
 margin: 4rem auto;
-height: 80vh;
+height: 80%;
+margin: 2rem 4rem;
 }
 
 .details {
 &__list {
-
+// list-style: none;
+font-size: 1.8rem;
+text-align: left;
 }
 
 &__item {
-
+font-size: 1.6rem;
 }
 
 &__img {

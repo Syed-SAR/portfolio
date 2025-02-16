@@ -17,6 +17,11 @@ text-transform: uppercase;
     text-transform: uppercase;
 }
 
+.heading-4 {
+ font-weight: lighter;
+    font-size: 1.8rem;
+}
+
 .text-align {text-align: center;}
 
 .btn {
@@ -26,7 +31,7 @@ text-transform: uppercase;
         font-size: 2.2rem;
         display: inline-block;
         border-radius: 10rem;
-        padding: 2rem 4rem;
+        padding: 1rem 2rem;
         background-color: $color-gold;
         box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
     }

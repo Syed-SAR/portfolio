@@ -1,3 +1,19 @@
+.text-center {
+  text-align: center;
+}
+
+.marginb-small {
+  margin-bottom: 2rem;
+}
+
+.marginb-medium {
+  margin-bottom: 4rem;
+}
+
+.marginb-large {
+  margin-bottom: 6rem;
+}
+
 *,
 *::before *::after {
   margin: 0;
@@ -37,6 +53,11 @@ body {
   text-transform: uppercase;
 }
 
+.heading-4 {
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
+
 .text-align {
   text-align: center;
 }
@@ -46,7 +67,7 @@ body {
   font-size: 2.2rem;
   display: inline-block;
   border-radius: 10rem;
-  padding: 2rem 4rem;
+  padding: 1rem 2rem;
   background-color: #daa520;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 }
@@ -531,14 +552,23 @@ video {
 }
 
 .section-details {
-  padding: 2.5rem 10rem;
+  padding: 1.5rem 10rem;
+  height: 80vh;
 }
 
 .details-container {
   margin: 4rem auto;
-  height: 80vh;
+  height: 80%;
+  margin: 2rem 4rem;
 }
 
+.details__list {
+  font-size: 1.8rem;
+  text-align: left;
+}
+.details__item {
+  font-size: 1.6rem;
+}
 .details__img {
   height: 50%;
   width: 100%;
