@@ -61,12 +61,12 @@ body {
 }
 
 .header {
-  height: 7rem;
+  min-height: 7rem;
   background-color: #eee;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
   padding: 2.5rem 4rem;
   border: 1px solid rgb(0, 0, 0);
 }
