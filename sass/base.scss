@@ -1,7 +1,7 @@
 
 $color-white: rgba(255, 255, 255);
 $color-black: rgb(0, 0, 0);
-$color-grey: #eee;
+$color-grey: maroon;
 $color-gold: #daa520;
 
 .text-center {text-align: center;}
@@ -26,10 +26,12 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.6;
-    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    font-family: 'FIra sans', sans-serif;
     font-weight: 400;
     box-sizing: border-box;
     padding: 1rem;
     color: $color-black;
+    background-color: $color-gold;
 }
 

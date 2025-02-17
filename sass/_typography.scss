@@ -32,7 +32,9 @@ text-transform: uppercase;
         display: inline-block;
         border-radius: 10rem;
         padding: 1rem 2rem;
-        background-color: $color-gold;
+        margin-left: 2rem;
+        background-color: $color-grey;
+        color: $color-gold;
         box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
     }
 
@@ -40,6 +42,8 @@ text-transform: uppercase;
         transform: scaleX(1.2);
         box-shadow: 0 2rem 3rem rgba(0, 0, 0, .4);
     transform: scaleX(1.2) translateY(3px);
+    background-color: $color-gold;
+    color: $color-white;
     }
 
     &:active {

@@ -1,5 +1,5 @@
 .introduction {
-  background-color: #eee;
+  background-color: $color-grey;
   padding: 5rem 10rem;
   margin-top: 10rem;
   border: 1px solid $color-black;
@@ -16,7 +16,7 @@
   &__box {
     margin: 4rem auto;
     width: 80%;
-    height: 75vh;
+    height: 80vh;
     background-color: white;
     overflow: hidden;
     position: relative;

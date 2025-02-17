@@ -28,11 +28,13 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.6;
-  font-family: sans-serif;
+  letter-spacing: 1.2px;
+  font-family: "FIra sans", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
   padding: 1rem;
   color: rgb(0, 0, 0);
+  background-color: #daa520;
 }
 
 .heading-primary {
@@ -68,13 +70,17 @@ body {
   display: inline-block;
   border-radius: 10rem;
   padding: 1rem 2rem;
-  background-color: #daa520;
+  margin-left: 2rem;
+  background-color: maroon;
+  color: #daa520;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 }
 .btn:hover {
   transform: scaleX(1.2);
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
   transform: scaleX(1.2) translateY(3px);
+  background-color: #daa520;
+  color: rgb(255, 255, 255);
 }
 .btn:active {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
@@ -83,7 +89,7 @@ body {
 
 .header {
   min-height: 7rem;
-  background-color: #eee;
+  background-color: maroon;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -180,7 +186,7 @@ align-items: center;
 }
 */
 .introduction {
-  background-color: #eee;
+  background-color: maroon;
   padding: 5rem 10rem;
   margin-top: 10rem;
   border: 1px solid rgb(0, 0, 0);
@@ -196,7 +202,7 @@ align-items: center;
 .intro__box {
   margin: 4rem auto;
   width: 80%;
-  height: 75vh;
+  height: 80vh;
   background-color: white;
   overflow: hidden;
   position: relative;
@@ -351,7 +357,7 @@ video {
     */
 .section-skills {
   text-align: center;
-  background-color: #eee;
+  background-color: #daa520;
   margin: 10rem;
   padding: 5rem 3rem;
   padding-bottom: 10rem;
@@ -364,6 +370,7 @@ video {
   text-align: center;
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 .card__container {
   display: grid;
@@ -413,6 +420,7 @@ video {
   min-height: 50rem;
   flex-wrap: wrap;
   flex-direction: column;
+  background-color: rgb(255, 255, 255);
 }
 .about__left {
   font-size: 2rem;
@@ -522,6 +530,8 @@ video {
 
 .projects {
   text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 2.5rem 5rem;
 }
 .projects__text {
   font-weight: bold;
@@ -529,7 +539,7 @@ video {
 
 .footer {
   min-height: 10rem;
-  background-color: #eee;
+  background-color: maroon;
   text-align: center;
   padding: 2rem 4rem;
 }
@@ -554,6 +564,7 @@ video {
 .section-details {
   padding: 1.5rem 10rem;
   height: 80vh;
+  background-color: rgb(255, 255, 255);
 }
 
 .details-container {
