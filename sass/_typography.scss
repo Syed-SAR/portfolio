@@ -1,11 +1,13 @@
 
 .heading-primary {
-    font-size: 2rem;
-        font-weight: lighter;
+    color: $color-primary-text;
+    font-size: 2.2rem;
+        font-weight: 700;
 text-transform: uppercase;
 }
 
 .heading-secondary {
+    color: $color-primary-text;
     font-size: 2.2rem;
         font-weight: bold;
         text-transform: uppercase;
@@ -13,12 +15,14 @@ text-transform: uppercase;
 }
 
 .heading-tertiary {
+    color: $color-primary-text;
     font-size: 2rem;
     text-transform: uppercase;
 }
 
 .heading-4 {
- font-weight: lighter;
+    color: $color-primary-text;
+ font-weight: 600;
     font-size: 1.8rem;
 }
 
@@ -28,13 +32,16 @@ text-transform: uppercase;
     &:link,
     &:visited {
         text-decoration: none;
-        font-size: 2.2rem;
+        font-size: 2rem;
         display: inline-block;
         border-radius: 10rem;
-        padding: 1rem 2rem;
+        @media only screen and (max-width: 56.25em) {
+            padding: 1rem 1.5rem;
+           }
         margin-left: 2rem;
-        background-color: $color-grey;
-        color: $color-gold;
+        background-color: $color-gold;
+        color: $color-white;
+        font-weight: 700;
         box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
     }
 
@@ -42,8 +49,8 @@ text-transform: uppercase;
         transform: scaleX(1.2);
         box-shadow: 0 2rem 3rem rgba(0, 0, 0, .4);
     transform: scaleX(1.2) translateY(3px);
-    background-color: $color-gold;
-    color: $color-white;
+    background-color: $color-black;
+    color: $color-gold;
     }
 
     &:active {

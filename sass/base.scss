@@ -1,8 +1,20 @@
 
 $color-white: rgba(255, 255, 255);
 $color-black: rgb(0, 0, 0);
-$color-grey: maroon;
+$color-grey: #eee;
 $color-gold: #daa520;
+
+$color-primary: #795548;
+$color-primary-light: #D7CCC8;
+$color-primary-dark: #5D4037;
+
+$color-primary-text: #212121;
+$color-secondary-text: #757575;
+
+$color-text-icons: #FFFFFF;
+$color-accent: #FFC107;
+$color-divider: #BDBDBD;
+
 
 .text-center {text-align: center;}
 
@@ -30,8 +42,7 @@ body {
     font-family: 'FIra sans', sans-serif;
     font-weight: 400;
     box-sizing: border-box;
-    padding: 1rem;
     color: $color-black;
-    background-color: $color-gold;
+    background-color: $color-text-icons;
 }
 
