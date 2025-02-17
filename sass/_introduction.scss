@@ -25,9 +25,11 @@
         object-fit: cover;
         overflow: hidden;
         grid-column: 1 / 3;
-        grid-row: 1 / 2;
+        grid-row: 1 / 3;
         @media only screen and (max-width: 75em) {
+          visibility: hidden;
  grid-column: 1 / -1;
+ grid-row: 1 / 3;
         }
     }
     video {
@@ -47,7 +49,7 @@
     text-align: center;
     padding: 3rem 0;
     @media only screen and (max-width: 75em) {
- grid-row: 2 / -1;
+ grid-row: 3 / -1;
  grid-column: 1 / -1;
 
     }
