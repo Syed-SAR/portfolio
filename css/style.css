@@ -278,10 +278,20 @@ body {
   align-items: center;
   padding: 2.5rem 5rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .card__details {
+    padding: 1.5rem 3rem;
+  }
+}
 .card__list {
   list-style: none;
   font-size: 1.8rem;
   padding: 2rem 4rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .card__list {
+    padding: 1rem 3rem;
+  }
 }
 .card__item {
   display: flex;
