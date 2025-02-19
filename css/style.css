@@ -262,6 +262,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 8rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .card__container {
+    gap: 2rem;
+  }
+}
 .card__img-box {
   height: 30%;
 }

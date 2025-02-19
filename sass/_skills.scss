@@ -22,6 +22,10 @@ rgba($color-primary-light, 1), rgba($color-primary-dark, 1));
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 8rem;
+
+  @media only screen and (max-width: 56.25em) {
+    gap: 2rem;
+  }
 }
 
 &__img-box {
