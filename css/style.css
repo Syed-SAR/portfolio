@@ -285,7 +285,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .card__details {
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 0rem;
   }
 }
 .card__list {
@@ -295,7 +295,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .card__list {
-    padding: 1rem 3rem;
+    padding: 1rem 0rem;
   }
 }
 .card__item {
